@@ -1,9 +1,7 @@
 package com.cwdegidio.myfancypdfinvoices.web;
 
 import com.cwdegidio.myfancypdfinvoices.context.Application;
-import com.cwdegidio.myfancypdfinvoices.service.InvoiceService;
 import com.cwdegidio.myfancypdfinvoices.model.Invoice;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
