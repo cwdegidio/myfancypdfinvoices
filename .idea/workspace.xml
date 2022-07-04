@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3172958-14c1-4f8b-9fcd-e75526671e37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/ApplicationLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/context/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/model/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/service/InvoiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/web/MyFancyPdfInvoicesServlet.java" afterDir="false" />
+    <list default="true" id="b3172958-14c1-4f8b-9fcd-e75526671e37" name="Changes" comment="removed unneeded imports">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/context/MyFancyPdfInvoicesApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/context/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/web/MyFancyPdfInvoicesServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/web/MyFancyPdfInvoicesServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="initial-project" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -91,8 +87,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656834167582</updated>
-      <workItem from="1656834171153" duration="7819000" />
+      <workItem from="1656834171153" duration="14968000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1656844018259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656844018259</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added new .gitignore">
+      <created>1656844178025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656844178026</updated>
+    </task>
+    <task id="LOCAL-00003" summary="removed unneeded imports">
+      <created>1656844344648</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656844344648</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +129,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Added new .gitignore" />
+    <MESSAGE value="removed unneeded imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unneeded imports" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
