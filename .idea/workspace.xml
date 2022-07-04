@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3172958-14c1-4f8b-9fcd-e75526671e37" name="Changes" comment="removed unneeded imports">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/context/MyFancyPdfInvoicesApplicationConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b3172958-14c1-4f8b-9fcd-e75526671e37" name="Changes" comment="Created Spring application configuration. Created @Bean methods. Added init() method to servlet. Added AnnotationConfigApplicationContext to init() of servlet. Removed unnecessary Application class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/context/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/web/MyFancyPdfInvoicesServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/web/MyFancyPdfInvoicesServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/context/MyFancyPdfInvoicesApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/context/MyFancyPdfInvoicesApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/service/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/service/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="initial-project" />
+        <entry key="$PROJECT_DIR$" value="spring-update" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656834167582</updated>
-      <workItem from="1656834171153" duration="14968000" />
+      <workItem from="1656834171153" duration="17305000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1656844018259</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656844344648</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created Spring application configuration. Created @Bean methods. Added init() method to servlet. Added AnnotationConfigApplicationContext to init() of servlet. Removed unnecessary Application class.">
+      <created>1656924073189</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656924073189</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +137,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added new .gitignore" />
     <MESSAGE value="removed unneeded imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed unneeded imports" />
+    <MESSAGE value="Created Spring application configuration. Created @Bean methods. Added init() method to servlet. Added AnnotationConfigApplicationContext to init() of servlet. Removed unnecessary Application class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Spring application configuration. Created @Bean methods. Added init() method to servlet. Added AnnotationConfigApplicationContext to init() of servlet. Removed unnecessary Application class." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

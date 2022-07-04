@@ -1,9 +1,11 @@
 package com.cwdegidio.myfancypdfinvoices.service;
 
 import com.cwdegidio.myfancypdfinvoices.model.User;
+import org.springframework.stereotype.Component;
 
 import java.util.UUID;
 
+@Component
 public class UserService {
 
     public User findById(String id) {
