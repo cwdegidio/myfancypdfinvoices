@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3172958-14c1-4f8b-9fcd-e75526671e37" name="Changes" comment="Added @Component and @ComponentScan annotations to services and configuration.">
+    <list default="true" id="b3172958-14c1-4f8b-9fcd-e75526671e37" name="Changes" comment="Added component injection, @PostConstruct and @PreDestroy methods to InvoiceService">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/service/DummyInvoiceServiceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/context/MyFancyPdfInvoicesApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/context/MyFancyPdfInvoicesApplicationConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/service/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/service/InvoiceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/web/MyFancyPdfInvoicesServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/web/MyFancyPdfInvoicesServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="component-and-field-injection" />
+        <entry key="$PROJECT_DIR$" value="lifecycles" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,13 +54,18 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
   }
 }]]></component>
-  <component name="RunManager" selected="JAR Application.myfancypdfinvoices-1.0-SNAPSHOT.jar">
-    <configuration name="com.cwdegidio.ApplicationLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cwdegidio.ApplicationLauncher" />
+  <component name="RunManager" selected="Application.ApplicationLauncher">
+    <configuration name="ApplicationLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cwdegidio.myfancypdfinvoices.ApplicationLauncher" />
       <module name="myfancypdfinvoices" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cwdegidio.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.cwdegidio.myfancypdfinvoices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +75,17 @@
     </configuration>
     <configuration name="myfancypdfinvoices-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/myfancypdfinvoices-1.0-SNAPSHOT.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.ApplicationLauncher" />
+      <item itemvalue="JAR Application.myfancypdfinvoices-1.0-SNAPSHOT.jar" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApplicationLauncher" />
         <item itemvalue="JAR Application.myfancypdfinvoices-1.0-SNAPSHOT.jar" />
-        <item itemvalue="Application.com.cwdegidio.ApplicationLauncher" />
       </list>
     </recent_temporary>
   </component>
@@ -87,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656834167582</updated>
-      <workItem from="1656834171153" duration="22427000" />
+      <workItem from="1656834171153" duration="26619000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1656844018259</created>
@@ -124,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656926519361</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added component injection, @PostConstruct and @PreDestroy methods to InvoiceService">
+      <created>1656983812845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656983812845</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +165,8 @@
     <MESSAGE value="removed unneeded imports" />
     <MESSAGE value="Created Spring application configuration. Created @Bean methods. Added init() method to servlet. Added AnnotationConfigApplicationContext to init() of servlet. Removed unnecessary Application class." />
     <MESSAGE value="Added @Component and @ComponentScan annotations to services and configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added @Component and @ComponentScan annotations to services and configuration." />
+    <MESSAGE value="Added component injection, @PostConstruct and @PreDestroy methods to InvoiceService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added component injection, @PostConstruct and @PreDestroy methods to InvoiceService" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
