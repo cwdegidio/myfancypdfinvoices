@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3172958-14c1-4f8b-9fcd-e75526671e37" name="Changes" comment="Added propeties and profile">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/web/MyFancyPdfInvoicesController.java" afterDir="false" />
+    <list default="true" id="b3172958-14c1-4f8b-9fcd-e75526671e37" name="Changes" comment="Created initial Spring MVC setup.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/ApplicationLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/ApplicationLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/context/MyFancyPdfInvoicesApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/context/MyFancyPdfInvoicesApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/web/MyFancyPdfInvoicesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/web/MyFancyPdfInvoicesController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lifecycles" />
+        <entry key="$PROJECT_DIR$" value="properties_resources_profiles" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,7 +101,7 @@
       <workItem from="1656834171153" duration="28253000" />
       <workItem from="1657157618059" duration="772000" />
       <workItem from="1657260566722" duration="86000" />
-      <workItem from="1657260662191" duration="2986000" />
+      <workItem from="1657260662191" duration="3945000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1656844018259</created>
@@ -153,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656999969429</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Created initial Spring MVC setup.">
+      <created>1657264343857</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657264343857</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +185,8 @@
     <MESSAGE value="Added @Component and @ComponentScan annotations to services and configuration." />
     <MESSAGE value="Added component injection, @PostConstruct and @PreDestroy methods to InvoiceService" />
     <MESSAGE value="Added propeties and profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added propeties and profile" />
+    <MESSAGE value="Created initial Spring MVC setup." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created initial Spring MVC setup." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
