@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3172958-14c1-4f8b-9fcd-e75526671e37" name="Changes" comment="Added component injection, @PostConstruct and @PreDestroy methods to InvoiceService">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/service/DummyInvoiceServiceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="b3172958-14c1-4f8b-9fcd-e75526671e37" name="Changes" comment="Added propeties and profile">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/web/MyFancyPdfInvoicesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/context/MyFancyPdfInvoicesApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/context/MyFancyPdfInvoicesApplicationConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/service/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/service/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/ApplicationLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/ApplicationLauncher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ab5eb380ed2b47bec9d15d55a760877b&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.ApplicationLauncher">
     <configuration name="ApplicationLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cwdegidio.myfancypdfinvoices.ApplicationLauncher" />
@@ -97,7 +99,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656834167582</updated>
-      <workItem from="1656834171153" duration="26619000" />
+      <workItem from="1656834171153" duration="28253000" />
+      <workItem from="1657157618059" duration="772000" />
+      <workItem from="1657260566722" duration="86000" />
+      <workItem from="1657260662191" duration="2986000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1656844018259</created>
@@ -141,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656983812845</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added propeties and profile">
+      <created>1656999969429</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656999969429</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +178,8 @@
     <MESSAGE value="Created Spring application configuration. Created @Bean methods. Added init() method to servlet. Added AnnotationConfigApplicationContext to init() of servlet. Removed unnecessary Application class." />
     <MESSAGE value="Added @Component and @ComponentScan annotations to services and configuration." />
     <MESSAGE value="Added component injection, @PostConstruct and @PreDestroy methods to InvoiceService" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added component injection, @PostConstruct and @PreDestroy methods to InvoiceService" />
+    <MESSAGE value="Added propeties and profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added propeties and profile" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
