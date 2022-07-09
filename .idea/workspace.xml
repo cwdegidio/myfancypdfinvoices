@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3172958-14c1-4f8b-9fcd-e75526671e37" name="Changes" comment="Created REST endpoing using Spring MVC annotations">
+    <list default="true" id="b3172958-14c1-4f8b-9fcd-e75526671e37" name="Changes" comment="Converted Invoice POST to use Path Variables.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/dto/InvoiceDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/web/MyFancyPdfInvoicesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwdegidio/myfancypdfinvoices/web/MyFancyPdfInvoicesController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="spring-mvc-rest" />
+        <entry key="$PROJECT_DIR$" value="spring-mvc-path-variables" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,7 +101,7 @@
       <workItem from="1656834171153" duration="28253000" />
       <workItem from="1657157618059" duration="772000" />
       <workItem from="1657260566722" duration="86000" />
-      <workItem from="1657260662191" duration="4766000" />
+      <workItem from="1657260662191" duration="6295000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1656844018259</created>
@@ -164,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657265344245</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Converted Invoice POST to use Path Variables.">
+      <created>1657330499032</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657330499032</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +201,8 @@
     <MESSAGE value="Added propeties and profile" />
     <MESSAGE value="Created initial Spring MVC setup." />
     <MESSAGE value="Created REST endpoing using Spring MVC annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created REST endpoing using Spring MVC annotations" />
+    <MESSAGE value="Converted Invoice POST to use Path Variables." />
+    <option name="LAST_COMMIT_MESSAGE" value="Converted Invoice POST to use Path Variables." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

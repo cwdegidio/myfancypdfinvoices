@@ -1,5 +1,6 @@
 package com.cwdegidio.myfancypdfinvoices.web;
 
+import com.cwdegidio.myfancypdfinvoices.dto.InvoiceDTO;
 import com.cwdegidio.myfancypdfinvoices.model.Invoice;
 import com.cwdegidio.myfancypdfinvoices.service.InvoiceService;
 import org.springframework.web.bind.annotation.*;
@@ -21,8 +22,8 @@ public class MyFancyPdfInvoicesController {
         return invoiceService.findAll();
     }
 
-    @PostMapping("/invoices/{userId}/{amount}")
-    public Invoice createInvoice(@PathVariable String userId, @PathVariable Integer amount) {
-        return invoiceService.create(userId, amount);
+    @PostMapping("/invoices")
+    public Invoice createInvoice(@RequestBody InvoiceDTO invoiceDTO) {
+        return invoiceService.create(invoiceDTO.getUserId(), invoiceDTO.getAmount());
     }
 }
